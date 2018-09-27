@@ -13,7 +13,7 @@ We need some basic test coverage to make merging PRs easier. Once this is done, 
 
 This will probably involve:
  
- * Adding PHP Unit to the project
+ * Adding PHPUnit to the project
  * A basic 'functional test' to ensure that the project doesnt fatal error
  * Possibly test that all of the required fields of all of the Profiles are not empty strings (A provider that uses `Kernel::getProfiles()`
    would work well here)
