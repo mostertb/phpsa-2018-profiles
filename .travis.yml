@@ -27,4 +27,5 @@ install:
 
 script:
   - pwd
+  - ls
   - phpunit --configuration phpunit.xml
