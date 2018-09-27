@@ -18,6 +18,11 @@ This will probably involve:
  * Possibly test that all of the required fields of all of the Profiles are not empty strings (A provider that uses `Kernel::getProfiles()`
    would work well here)
    
+- [ ] Autoload Profiles
+Manually instantiating profiles in the kernel constructor is a step that many contributors miss. It is also prone to 
+merge conflict. It would be nice detect all the classes in the `Profiles` directory and automatically instantiate them in
+the kernel
+   
 - [ ] **Default Profile Pic**
 Show some default image for Profiles which return an empty string or `null` from `AbstractProfile::getProfileImageURL()
 
