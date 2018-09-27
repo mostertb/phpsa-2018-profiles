@@ -26,6 +26,4 @@ install:
   - composer install --no-interaction --prefer-dist
 
 script:
-  - pwd
-  - ls
-  - phpunit --configuration phpunit.xml
+  - phpunit
