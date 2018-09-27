@@ -14,6 +14,6 @@
     "psr-4": { "mostertb\\PHPSA2018Profiles\\": "src/" }
   },
   "require": {
-    "php": ">7"
+    "php": ">7.0"
   }
 }
