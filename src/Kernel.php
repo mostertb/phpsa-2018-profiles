@@ -6,6 +6,7 @@ use mostertb\PHPSA2018Profiles\Profiles\AbstractProfile;
 use mostertb\PHPSA2018Profiles\Profiles\AlbertSchermanProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BradMostertProfile;
 use mostertb\PHPSA2018Profiles\Profiles\JadonBrownProfile;
+use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 
 class Kernel
 {
@@ -23,6 +24,8 @@ class Kernel
             new BradMostertProfile(),
             new AlbertSchermanProfile(),
             new JadonBrownProfile(),
+            new BradMostertProfile(),
+            new TshiamoBhudaProfile(),
         );
     }
 
