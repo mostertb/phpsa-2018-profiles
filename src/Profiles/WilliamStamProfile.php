@@ -3,7 +3,7 @@
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
 
-class BradMostertProfile extends AbstractProfile
+class WilliamStamProfile extends AbstractProfile
 {
 
     /**
@@ -13,7 +13,7 @@ class BradMostertProfile extends AbstractProfile
      */
     public function getName()
     {
-        return 'Brad Mostert';
+        return 'William Stam';
     }
 
     /**
@@ -23,11 +23,9 @@ class BradMostertProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'Brad is a senior developer at Afrihost and a Design Patterns acolyte.<br>'.
-            'He feeds exclusively on bandwidth and coffee, likes to herd servers (you know.. like cattle), does some Open Source '.
-            'and helps organise the Johannesburg PHP Meetup. <br>'.
-            'All user input submitted to him will be ‘> /dev/mull’ for consideration. <br>'.'
-            Brad also likes long walks on the beach and craft beer.';
+        return 'William managed to get a job as a senior PHP developer at Munsoft, Munsoft being the ,brbiggest FMS system in Southern Africa.<br>'.
+            'He started his career with community publishers keeping them on track with the "big boys".<br>'.
+			'2018 is Williams \'s first PHP confrence';
     }
 
     /**
@@ -37,7 +35,7 @@ class BradMostertProfile extends AbstractProfile
      */
     public function getProfileImageURL()
     {
-        return 'https://s.gravatar.com/avatar/9ff2a97e7faf3529f1b78f1f737ebca0?s=80';
+        return 'https://s.gravatar.com/avatar/'.md5('awstam@gmail.com').'?s=80';
     }
 
     /**
@@ -48,7 +46,7 @@ class BradMostertProfile extends AbstractProfile
      */
     public function getGitHubUsername()
     {
-        return 'mostertb';
+        return 'WilliamStam';
     }
 
     /**
@@ -61,8 +59,8 @@ class BradMostertProfile extends AbstractProfile
     public function getMaintainedProjects()
     {
         return array(
-            'Afrihost/BaseCommandBundle' => 'https://github.com/afrihost/BaseCommandBundle',
-            'mostertb/phpsa-2017-profiles' => 'https://github.com/mostertb/phpsa-2017-profiles'
+            'Newspaper Management Software' => 'https://github.com/Impreshin/Impreshin',
+            'Updater Script' => 'https://github.com/WilliamStam/Updater',
         );
     }
 
@@ -76,14 +74,12 @@ class BradMostertProfile extends AbstractProfile
     public function getInvolvedProjects()
     {
         return array(
-            'coduo/php-humanizer' => 'https://github.com/coduo/php-humanizer/tree/master/src/Coduo/PHPHumanizer',
-            'daleattree/csvfilehandler' => 'https://github.com/daleattree/csvfilehandler',
-            'afrihost/swarm-process' => 'https://github.com/afrihost/swarm-process'
+
         );
     }
 
     public function getTwitterUsername()
     {
-        return '@bsinkwa';
+        return '@awstam';
     }
 }
