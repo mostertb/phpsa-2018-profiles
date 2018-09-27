@@ -9,4 +9,4 @@ git checkout master
 git pull
 
 # Composer install
-composer install --no-dev --optimize-autoloader --no-interaction
+php composer.phar install --no-dev --optimize-autoloader --no-interaction
