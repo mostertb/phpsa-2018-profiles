@@ -8,7 +8,7 @@ Come take part to get involved in Open Source, promote projects, win stickers an
 
 # View this project online
 
-The master branch is regularly rolled out to production. It can be viewed online at [http://www.phpsa2018profiles.co.za/](http://www.phpsa2017profiles.co.za/)
+The master branch is regularly rolled out to production. It can be viewed online at [http://www.phpsa2018profiles.co.za/](http://www.phpsa2018profiles.co.za/)
 
 ## Instructions 
 
