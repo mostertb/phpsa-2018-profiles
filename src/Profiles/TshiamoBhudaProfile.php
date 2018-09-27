@@ -56,6 +56,4 @@ class TshiamoBhudaProfile extends AbstractProfile
     {
         return ['tshiamobhuda/brickface' => 'https://github.com/tshiamobhuda/brickface'];
     }
-
-
 }
