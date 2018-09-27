@@ -26,4 +26,4 @@ install:
   - composer install --no-interaction --prefer-dist
 
 script:
-  - vendor/phpunit/phpunit/phpunit
+  - phpunit
