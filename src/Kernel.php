@@ -4,6 +4,7 @@ namespace mostertb\PHPSA2018Profiles;
 
 use mostertb\PHPSA2018Profiles\Profiles\AbstractProfile;
 use mostertb\PHPSA2018Profiles\Profiles\AlbertSchermanProfile;
+use mostertb\PHPSA2018Profiles\Profiles\AndreSmithProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BradMostertProfile;
 use mostertb\PHPSA2018Profiles\Profiles\GerhardNiemandProfile;
 use mostertb\PHPSA2018Profiles\Profiles\LeRouxEnslinProfile;
@@ -42,6 +43,7 @@ class Kernel
             new TshiamoBhudaProfile(),
             new TonyMackProfile(),
             new RossvanWykProfile(),
+            new AndreSmithProfile(),
             new LeRouxEnslinProfile(),
 			      new WilliamStamProfile(),
 			      new MattVoslooProfile(),
