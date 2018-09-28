@@ -1,0 +1,76 @@
+{% extends "base.twig.html" %}
+
+{% block bodyContainer %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Contents</h2>
+            <div class="list-group">
+
+                {% for profile in profiles %}
+
+                    <a href="#{{ profile.getSlug }}" class="list-group-item">{{ profile.getName }}</a>
+
+                {% endfor %}
+
+
+                <h2>Bios</h2>
+
+                {% for profile in profiles %}
+
+                <div class="media">
+                    <div class="media-left">
+
+                        <a name="{{ profile.getSlug }}">
+                            <img class="media-object" width="64" height="64" src="{{ profile.getProfileImageURL }}" alt="{{ profile.getName }}">
+                        </a>
+                    </div>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">{{ profile.getName }}</h4>
+                        <p>
+                            {{ profile.getBiography }}
+                        </p>
+
+                        {% if profile.getGitHubUsername is not null and profile.getGitHubUsername is not empty %}
+                        <p>
+                            <strong>GitHub Homepage:</strong>
+                            <a href="https://github.com/{{ profile.getGitHubUsername }}" target="_blank">
+                                {{ profile.getGitHubUsername }}
+                            </a>
+                        </p>
+                        {% endif %}
+
+                        {% if profile.getMaintainedProjects is not null and profile.getMaintainedProjects is not empty %}
+                        <p>
+                            <h5>Projects</h5>
+                            <ul>
+                                {% for name, url in profile.getMaintainedProjects %}
+                                    <li><a href="{{ url }}" target="_blank">{{ name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </p>
+                        {% endif %}
+
+                        {% if profile.getInvolvedProjects is not null and profile.getInvolvedProjects is not empty %}
+                        <p>
+                        <h5>Involved In</h5>
+                        <ul>
+                            {% for name, url in profile.getInvolvedProjects %}
+                                <li><a href="{{ url }}" target="_blank">{{ name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        </p>
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

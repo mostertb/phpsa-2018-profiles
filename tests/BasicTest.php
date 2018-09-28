@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace mostertb\PHPSA2018Profiles\Tests;
+
 use mostertb\PHPSA2018Profiles\Kernel;
 use mostertb\PHPSA2018Profiles\Profiles\AbstractProfile;
 use PHPUnit\Framework\TestCase;
