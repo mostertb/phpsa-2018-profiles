@@ -12,6 +12,7 @@ use mostertb\PHPSA2018Profiles\Profiles\LeePelserProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
 use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
+use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
 
 class Kernel
 {
@@ -34,7 +35,8 @@ class Kernel
             new LeePelserProfile(),
             new TshiamoBhudaProfile(),
             new TonyMackProfile(),
-            new RossvanWykProfile()
+            new RossvanWykProfile(),
+			new WilliamStamProfile()
         );
     }
 
