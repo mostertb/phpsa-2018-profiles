@@ -54,12 +54,11 @@ class Kernel
         );
     }
 
-  /**
-   * @return AbstractProfile[]
-   */
-  public function getProfiles()
-  {
-    return $this->profiles;
-  }
-
+    /**
+     * @return AbstractProfile[]
+     */
+    public function getProfiles()
+    {
+        return $this->profiles;
+    }
 }
