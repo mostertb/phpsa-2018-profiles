@@ -6,6 +6,7 @@ use mostertb\PHPSA2018Profiles\Profiles\AbstractProfile;
 use mostertb\PHPSA2018Profiles\Profiles\AlbertSchermanProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BradMostertProfile;
 use mostertb\PHPSA2018Profiles\Profiles\GerhardNiemandProfile;
+use mostertb\PHPSA2018Profiles\Profiles\LeRouxEnslinProfile;
 use mostertb\PHPSA2018Profiles\Profiles\MattVoslooProfile;
 use mostertb\PHPSA2018Profiles\Profiles\MichaelDanckwertsProfile;
 use mostertb\PHPSA2018Profiles\Profiles\MichaelGoodenProfile;
@@ -16,6 +17,7 @@ use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
 use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
 use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
+use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
 
 class Kernel
 {
@@ -40,17 +42,20 @@ class Kernel
             new TshiamoBhudaProfile(),
             new TonyMackProfile(),
             new RossvanWykProfile(),
-            new WilliamStamProfile(),
-            new MattVoslooProfile(),
+            new LeRouxEnslinProfile(),
+			      new WilliamStamProfile(),
+			      new MattVoslooProfile(),
+            new PuffyProfile(),
             new SarelvdWaltProfile(),
         );
     }
 
-    /**
-     * @return AbstractProfile[]
-     */
-    public function getProfiles()
-    {
-        return $this->profiles;
-    }
+  /**
+   * @return AbstractProfile[]
+   */
+  public function getProfiles()
+  {
+    return $this->profiles;
+  }
+
 }
