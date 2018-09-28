@@ -29,3 +29,4 @@ install:
 script:
   - phpunit
   - vendor/bin/phpstan analyse --level max src/ tests/
+  - composer php-cs-fixer
