@@ -54,7 +54,8 @@ class Kernel
             new PuffyProfile(),
             new SarelvdWaltProfile(),
             new BernhardBreytenbachProfile(),
-            new FrancoSchwimProfile()
+            new FrancoSchwimProfile(),
+            new WayneBrummerProfile()
         );
     }
 
