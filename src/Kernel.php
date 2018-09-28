@@ -5,6 +5,7 @@ namespace mostertb\PHPSA2018Profiles;
 use mostertb\PHPSA2018Profiles\Profiles\AbstractProfile;
 use mostertb\PHPSA2018Profiles\Profiles\AlbertSchermanProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BradMostertProfile;
+use mostertb\PHPSA2018Profiles\Profiles\GerhardNiemandProfile;
 use mostertb\PHPSA2018Profiles\Profiles\JadonBrownProfile;
 
 class Kernel
@@ -23,6 +24,7 @@ class Kernel
             new BradMostertProfile(),
             new AlbertSchermanProfile(),
             new JadonBrownProfile(),
+            new GerhardNiemandProfile(),
         );
     }
 
