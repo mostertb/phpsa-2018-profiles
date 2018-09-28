@@ -27,7 +27,6 @@
   },
   "extra": {
     "heroku": {
-      "document-root": "public",
       "index-document": "index.php"
     }
   }
