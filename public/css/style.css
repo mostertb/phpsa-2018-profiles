@@ -34,3 +34,11 @@
   0% { left: 0; }
   100% { left: -100%; }
 }
+
+h1 {
+  background: linear-gradient(to right, orange , yellow, green, cyan, red, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  line-height: 60px;
+}
