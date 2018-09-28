@@ -76,6 +76,7 @@ BIO;
     {
         return array(
             'dasprid/formidable' => 'https://github.com/DASPRiD/Formidable',
+            'zendframework/*' => 'https://github.com/zendframework',
         );
     }
 }
