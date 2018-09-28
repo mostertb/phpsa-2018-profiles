@@ -31,6 +31,15 @@
                         <p>
                             {{ profile.getBiography }}
                         </p>
+                        
+                        {% if profile.getTwitterUsername is not null and profile.getTwitterUsername is not empty %}
+                        <p>
+                            <strong>Twitter:</strong>
+                            <a href="https://twitter.com/{{ profile.getTwitterUsername }}" target="_blank">
+                                {{ profile.getTwitterUsername }}
+                            </a>
+                        </p>
+                        {% endif %}
 
                         {% if profile.getGitHubUsername is not null and profile.getGitHubUsername is not empty %}
                         <p>

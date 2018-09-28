@@ -14,39 +14,43 @@ use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
 use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
 use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
+use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
 
 class Kernel
 {
-    /**
-     * @var AbstractProfile[]
-     */
-    private $profiles;
 
-    /**
-     * Kernel constructor.
-     */
-    public function __construct()
-    {
-        $this->profiles = array(
-            new MichaelGoodenProfile(),
-            new BradMostertProfile(),
-            new MichaelDanckwertsProfile(),
-            new AlbertSchermanProfile(),
-            new JadonBrownProfile(),
-            new GerhardNiemandProfile(),
-            new LeePelserProfile(),
-            new TshiamoBhudaProfile(),
-            new TonyMackProfile(),
-            new RossvanWykProfile(),
-			new WilliamStamProfile()
-        );
-    }
+  /**
+   * @var AbstractProfile[]
+   */
+  private $profiles;
 
-    /**
-     * @return AbstractProfile[]
-     */
-    public function getProfiles()
-    {
-        return $this->profiles;
-    }
+  /**
+   * Kernel constructor.
+   */
+  public function __construct()
+  {
+    $this->profiles = array(
+      new MichaelGoodenProfile(),
+      new BradMostertProfile(),
+      new MichaelDanckwertsProfile(),
+      new AlbertSchermanProfile(),
+      new JadonBrownProfile(),
+      new GerhardNiemandProfile(),
+      new LeePelserProfile(),
+      new TshiamoBhudaProfile(),
+      new TonyMackProfile(),
+      new RossvanWykProfile(),
+      new WilliamStamProfile(),
+      new PuffyProfile()
+    );
+  }
+
+  /**
+   * @return AbstractProfile[]
+   */
+  public function getProfiles()
+  {
+    return $this->profiles;
+  }
+
 }
