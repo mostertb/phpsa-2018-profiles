@@ -40,8 +40,8 @@ class Kernel
             new TshiamoBhudaProfile(),
             new TonyMackProfile(),
             new RossvanWykProfile(),
-			new WilliamStamProfile(),
-			new MattVoslooProfile(),
+            new WilliamStamProfile(),
+            new MattVoslooProfile(),
             new SarelvdWaltProfile(),
         );
     }
