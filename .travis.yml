@@ -27,4 +27,4 @@ install:
 
 script:
   - phpunit
-  - phpstan analyse --level max src/ tests/
+  - vendor/bin/phpstan analyse --level max src/ tests/
