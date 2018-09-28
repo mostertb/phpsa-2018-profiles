@@ -13,11 +13,15 @@
   "autoload": {
     "psr-4": { "mostertb\\PHPSA2018Profiles\\": "src/" }
   },
+  "autoload-dev": {
+    "psr-4": { "mostertb\\PHPSA2018Profiles\\Tests\\": "tests/" }
+  },
   "require": {
     "php": ">7.0",
     "twig/twig": "^2.5"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6"
+    "phpunit/phpunit": "^6",
+    "phpstan/phpstan": "^0.10.3"
   }
 }
