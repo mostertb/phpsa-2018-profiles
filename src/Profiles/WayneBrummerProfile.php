@@ -2,7 +2,7 @@
 
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-class WilliamStamProfile extends AbstractProfile
+class WayneBrummerProfile extends AbstractProfile
 {
 
     /**
@@ -12,7 +12,7 @@ class WilliamStamProfile extends AbstractProfile
      */
     public function getName()
     {
-        return 'William Stam';
+        return 'Wayne Brummer';
     }
 
     /**
@@ -22,9 +22,10 @@ class WilliamStamProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'William managed to get a job as a senior PHP developer at Munsoft, Munsoft being the ,brbiggest FMS system in Southern Africa.<br>'.
-            'He started his career with community publishers keeping them on track with the "big boys".<br>'.
-            '2018 is Williams \'s first PHP confrence';
+        return <<<HTML
+    <b>Wayne Brummer</b> is a software engineer for Qlink Holdings and Wants to bring Open Source to his company. :)
+    He needs this to happend ofr all the smiles.    
+HTML;
     }
 
     /**
@@ -34,10 +35,10 @@ class WilliamStamProfile extends AbstractProfile
      */
     public function getProfileImageURL()
     {
-        return 'https://s.gravatar.com/avatar/'.md5('awstam@gmail.com').'?s=80';
+        return 'https://avatars3.githubusercontent.com/u/4981767?s=460&v=4';
     }
 
-    /**
+        /**
      * Should return the GitHub username of the person the bio is about. This is used to generate links to the person's
      * OpenSource projects
      *
@@ -45,40 +46,11 @@ class WilliamStamProfile extends AbstractProfile
      */
     public function getGitHubUsername()
     {
-        return 'WilliamStam';
-    }
-
-    /**
-     * Optional function that should return an array of OpenSource projects maintained by this person.
-     * The index should contain the name of the project and the value should be a url to the project's homepage (typically
-     * a GitHub page)
-     *
-     * @return array
-     */
-    public function getMaintainedProjects()
-    {
-        return array(
-            'Newspaper Management Software' => 'https://github.com/Impreshin/Impreshin',
-            'Updater Script' => 'https://github.com/WilliamStam/Updater',
-        );
-    }
-
-    /**
-     * Optional function that should return an array of OpenSource projects to which this person has contributed (or at least
-     * recommends). The index should contain the name of the project and the value should be a url to the project's
-     * homepage (typically a GitHub page)
-     *
-     * @return array
-     */
-    public function getInvolvedProjects()
-    {
-        return array(
-
-        );
+        return 'WayneBrummer';
     }
 
     public function getTwitterUsername()
     {
-        return '@awstam';
+        return '@WayneBrummer';
     }
 }
