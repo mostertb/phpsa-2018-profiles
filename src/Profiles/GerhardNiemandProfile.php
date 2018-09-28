@@ -2,7 +2,6 @@
 
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-
 class GerhardNiemandProfile extends AbstractProfile
 {
 

@@ -2,7 +2,8 @@
 
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-class TonyMackProfile extends AbstractProfile
+
+class FrancoSchwimProfile extends AbstractProfile
 {
 
     /**
@@ -12,7 +13,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getName()
     {
-        return 'Tony Mack';
+        return 'Franco Schwim';
     }
 
     /**
@@ -22,8 +23,9 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'Tony is an app dev<br>'.
-               'He makes apps.<br>';
+        return "I'm a guy that doesn't talk a lot.<br />" .
+                "I listen and observe.<br />" .
+                "This is the first PHP I have ever written. <br />" ;
     }
 
     /**
@@ -33,7 +35,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getProfileImageURL()
     {
-        return 'https://pbs.twimg.com/profile_images/643733549145817089/95m5cFta_400x400.jpg';
+        return 'http://images6.fanpop.com/image/photos/38000000/Commander-Shepard-mass-effect-3-38073002-1100-750.jpg';
     }
 
     /**
@@ -44,7 +46,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getGitHubUsername()
     {
-        return 'tonmanayo';
+        return 'Technaur';
     }
 
     /**
@@ -56,9 +58,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getMaintainedProjects()
     {
-        return array(
-            '',
-        );
+        return array();
     }
 
     /**
@@ -70,13 +70,11 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getInvolvedProjects()
     {
-        return array(
-            '',
-        );
+        return array();
     }
 
     public function getTwitterUsername()
     {
-        return '@tonmanayo';
+        return '@FrancoSchwim';
     }
 }

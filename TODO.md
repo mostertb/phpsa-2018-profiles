@@ -31,10 +31,6 @@ Typing out a long biography for `AbstractProfile::getBiography()` is tedious. It
 be provided with via a templating engine such as TWIG
 
 If your feeling adventurous, the same is true for the index.php page
-
-- [ ] **Twitter Integration**
-Profiles this year optionally include Twitter Usernames. We should add this to the display.
-Bonus marks for facilitating tweeting at and following
    
 - [ ] **Local Profile Pics**
 It would be nice to add the option for profiles to commit their images to the project and have them served out of
@@ -59,3 +55,8 @@ This will probably involve:
  * A basic 'functional test' to ensure that the project doesnt fatal error
  * Possibly test that all of the required fields of all of the Profiles are not empty strings (A provider that uses `Kernel::getProfiles()`
    would work well here)
+   
+   
+- [x] **Twitter Integration**
+Profiles this year optionally include Twitter Usernames. We should add this to the display.
+Bonus marks for facilitating tweeting at and following
