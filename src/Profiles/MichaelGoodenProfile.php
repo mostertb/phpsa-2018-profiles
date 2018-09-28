@@ -75,6 +75,7 @@ BIO;
     public function getInvolvedProjects()
     {
         return array(
+            'mostertb/phpsa-2018-profiles' => 'https://github.com/mostertb/phpsa-2018-profiles',
             'dasprid/formidable' => 'https://github.com/DASPRiD/Formidable',
             'zendframework/*' => 'https://github.com/zendframework',
         );
