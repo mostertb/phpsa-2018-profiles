@@ -23,7 +23,10 @@ class MichaelGoodenProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'bio goes here';
+        return <<<BIO
+Michael Gooden is a Senior Software Developer at REDACTED.<br>
+He enjoys implementing best practice design patterns, arguing how tabs are evil and watching people take long walks on the beach in his hometown of Port Elizabeth.
+BIO;
     }
 
     /**
@@ -33,8 +36,7 @@ class MichaelGoodenProfile extends AbstractProfile
      */
     public function getProfileImageURL()
     {
-        throw new \Exception('Implement this!');
-        return '';
+        return 'http://gravatar.com/avatar/cd6cf41bfafb2046cf3e683558158bf1';
     }
 
     /**
