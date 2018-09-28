@@ -47,6 +47,9 @@ Add your new Bio class to the construction of `mostertb\PHPSA2018Profiles\Kernel
     }
 ```
 
+### Step Four Point Five
+Test your newly modified code with `composer test`. Resolve any issues the command raises.
+
 ### Step Five
 Submit Pull Request  ([How TO](https://help.github.com/articles/about-pull-requests/))
 

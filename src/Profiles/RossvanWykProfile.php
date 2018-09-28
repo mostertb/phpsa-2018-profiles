@@ -47,6 +47,4 @@ class RossvanWykProfile extends AbstractProfile
     {
         return 'https://avatars1.githubusercontent.com/u/234763';
     }
-
-
 }
