@@ -13,6 +13,12 @@ class RossvanWykProfile extends AbstractProfile
         return 'Ross also just wants a sticker... :P';
     }
 
+    public function getGitHubUsername()
+    {
+        return 'Owkkuri';
+    }
+
+
     public function getTwitterUsername()
     {
         return '@owkkuri';
