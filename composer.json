@@ -23,7 +23,11 @@
   "require-dev": {
     "php": ">7.1",
     "phpunit/phpunit": "^6",
-    "phpstan/phpstan": "^0.10.3"
+    "phpstan/phpstan": "^0.10.3",
+    "friendsofphp/php-cs-fixer": "^2.13"
+  },
+  "scripts": {
+    "php-cs-fixer": "php-cs-fixer fix --dry-run --diff --verbose --rules @PSR2 src/"
   },
   "extra": {
     "heroku": {
