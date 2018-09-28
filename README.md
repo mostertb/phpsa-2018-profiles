@@ -32,18 +32,30 @@ Implement the following methods:
 
 If you get stuck, just look at someone else's Profile class for inspiration...
 
-### Step Three
-Add your new Bio class to the construction of `mostertb\PHPSA2018Profiles\Kernel`
-
 ### Step Four
+Add your new Bio class to the construction of `mostertb\PHPSA2018Profiles\Kernel` :
+
+```php
+     // In src/Kernel.php
+    public function __construct()
+    {
+        $this->profiles = array(
+            // ...
+            new <YourName>Profile(),
+            // ...
+        );
+    }
+```
+
+### Step Five
 Submit Pull Request  ([How TO](https://help.github.com/articles/about-pull-requests/))
 
-### Step Five 
+### Step Six 
 Tweet your Pull Request [@PHPSouthAfrica](https://twitter.com/PHPSouthAfrica) with the tag [#PHPSA2018Profiles](https://twitter.com/search?f=tweets&q=%23PHPSA2018Profiles)
 
 *This step is super important to the humor :)*
 
-### Step Five
+### Step Seven
 PROFIT $$
 
 Once your Pull Request is accepted, go say hi to Brad Mostert and he'll give you a GitHub sticker!

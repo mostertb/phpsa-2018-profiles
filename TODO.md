@@ -47,3 +47,15 @@ Speaks for itself. Bonus points for SEO urls...
 
 - [ ] **Theme** 
 Make the whole site prettier
+
+# Completed TODOs
+
+- [x] **Tests and CI**  
+We need some basic test coverage to make merging PRs easier. Once this is done, we'll add Travis CI integration.
+
+This will probably involve:
+ 
+ * Adding PHPUnit to the project
+ * A basic 'functional test' to ensure that the project doesnt fatal error
+ * Possibly test that all of the required fields of all of the Profiles are not empty strings (A provider that uses `Kernel::getProfiles()`
+   would work well here)
