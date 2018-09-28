@@ -15,6 +15,7 @@ use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
 use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
 use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
+use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
 
 class Kernel
 {
@@ -40,15 +41,17 @@ class Kernel
             new TonyMackProfile(),
             new RossvanWykProfile(),
 			new WilliamStamProfile(),
-			new MattVoslooProfile()
+			new MattVoslooProfile(),
+            new PuffyProfile()
         );
     }
 
-    /**
-     * @return AbstractProfile[]
-     */
-    public function getProfiles()
-    {
-        return $this->profiles;
-    }
+  /**
+   * @return AbstractProfile[]
+   */
+  public function getProfiles()
+  {
+    return $this->profiles;
+  }
+
 }
