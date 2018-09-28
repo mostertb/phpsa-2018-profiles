@@ -7,6 +7,7 @@ use mostertb\PHPSA2018Profiles\Profiles\AlbertSchermanProfile;
 use mostertb\PHPSA2018Profiles\Profiles\AndreSmithProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BradMostertProfile;
 use mostertb\PHPSA2018Profiles\Profiles\GerhardNiemandProfile;
+use mostertb\PHPSA2018Profiles\Profiles\MattVoslooProfile;
 use mostertb\PHPSA2018Profiles\Profiles\MichaelDanckwertsProfile;
 use mostertb\PHPSA2018Profiles\Profiles\MichaelGoodenProfile;
 use mostertb\PHPSA2018Profiles\Profiles\JadonBrownProfile;
@@ -41,6 +42,7 @@ class Kernel
             new RossvanWykProfile(),
             new WilliamStamProfile(),
             new AndreSmithProfile(),
+			new MattVoslooProfile()
         );
     }
 
