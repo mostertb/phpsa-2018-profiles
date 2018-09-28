@@ -2,7 +2,6 @@
 
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-
 class WilliamStamProfile extends AbstractProfile
 {
 
@@ -25,7 +24,7 @@ class WilliamStamProfile extends AbstractProfile
     {
         return 'William managed to get a job as a senior PHP developer at Munsoft, Munsoft being the ,brbiggest FMS system in Southern Africa.<br>'.
             'He started his career with community publishers keeping them on track with the "big boys".<br>'.
-			'2018 is Williams \'s first PHP confrence';
+            '2018 is Williams \'s first PHP confrence';
     }
 
     /**
