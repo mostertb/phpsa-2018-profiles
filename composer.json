@@ -14,7 +14,8 @@
     "psr-4": { "mostertb\\PHPSA2018Profiles\\": "src/" }
   },
   "require": {
-    "php": ">7.0"
+    "php": ">7.0",
+    "twig/twig": "^2.5"
   },
   "require-dev": {
     "phpunit/phpunit": "^6"
