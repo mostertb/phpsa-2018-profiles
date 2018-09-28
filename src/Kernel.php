@@ -18,6 +18,7 @@ use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
 use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
 use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
 use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
+use mostertb\PHPSA2018Profiles\Profiles\NoelYoungProfile;
 
 class Kernel
 {
