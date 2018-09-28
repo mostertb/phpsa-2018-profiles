@@ -166,7 +166,7 @@ $kernel = new mostertb\PHPSA2018Profiles\Kernel();
                             echo "</ul>";
                         } // end Maintained Projects
 
-                        if(count($profile->getMaintainedProjects()) > 0){
+                        if(count($profile->getInvolvedProjects()) > 0){
                             echo "<h5>Involved In</h5>";
                             echo "<ul>";
                             foreach ($profile->getInvolvedProjects() as $name => $url){
