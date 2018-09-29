@@ -24,14 +24,7 @@ class DowayneBreedtProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        $randNo = mt_rand(0,3);
-        $messages = [
-            0 => "Sysadmin @ Afrihost. I love the intersection of PHP and bash, which, in my opinion, are the best languages.",
-            1 => "Sysadmin @ Afrihost. Also an aspiring developer, doing as many projects as possible in my spare time, to solve problems, or just have fun.",
-            2 => "Sysadmin @ Afrihost. Learning more about PHP every day, trying to git gud.",
-            3 => base64_encode("Sysadmin @Afrihost . Those chairs were super uncomfortable.. Was I the only one to internally Geek out that Michael is a Symfony core Dev?"),
-            ];
-        return $messages[$randNo];
+        return "Sysadmin @ Afrihost. I am trying to git gud. I do lots of debugging.";
     }
 
     public function getGitHubUsername()
@@ -52,14 +45,7 @@ class DowayneBreedtProfile extends AbstractProfile
     public function getProfileImageURL()
     {
         $gvApi = new GravatarApi();
-        $gv_exists = $gvApi->exists('dowaynebreedt@gmail.com');
-        if($gv_exists){
-            $gv_image = $gvApi->getUrl('dowaynebreedt@gmail.com');
-        }else{
-            $gv_image = "https://image.freepik.com/free-vector/404-error-concept-with-face_23-2147737378.jpg";
-        }
-        return $gv_image;
-        //return "https://cdn.afrihost.com/images/team/dowayne_bd.jpg";
+        return $gvApi->getUrl('dowaynebreedt@gmail.com');
     }
 
     public function getTwitterUsername()
