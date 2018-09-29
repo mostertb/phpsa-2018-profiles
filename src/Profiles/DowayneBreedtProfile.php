@@ -2,6 +2,7 @@
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
 use GPH\Api\DefaultApi;
+use Ornicar\GravatarBundle\GravatarApi;
 
 class DowayneBreedtProfile extends AbstractProfile
 {
@@ -50,7 +51,15 @@ class DowayneBreedtProfile extends AbstractProfile
 
     public function getProfileImageURL()
     {
-        return "https://cdn.afrihost.com/images/team/dowayne_bd.jpg";
+        $gvApi = new GravatarApi();
+        $gv_exists = $gvApi->exists('dowaynebreedt@gmail.com');
+        if($gv_exists){
+            $gv_image = $gvApi->getUrl('dowaynebreedt@gmail.com');
+        }else{
+            $gv_image = "https://image.freepik.com/free-vector/404-error-concept-with-face_23-2147737378.jpg";
+        }
+        return $gv_image;
+        //return "https://cdn.afrihost.com/images/team/dowayne_bd.jpg";
     }
 
     public function getTwitterUsername()
