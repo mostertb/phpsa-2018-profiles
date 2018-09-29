@@ -22,10 +22,8 @@ class WayneBrummerProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return <<<HTML
-    <b>Wayne Brummer</b> is a software engineer for Qlink Holdings and Wants to bring Open Source to his company. :)
-    He needs this to happend ofr all the smiles.    
-HTML;
+        return 'Wayne Brummer is a software engineer for Qlink Holdings and Wants to bring Open Source 
+to his company. :) He needs this to happend ofr all the smiles.';
     }
 
     /**
@@ -38,7 +36,7 @@ HTML;
         return 'https://avatars3.githubusercontent.com/u/4981767?s=460&v=4';
     }
 
-        /**
+    /**
      * Should return the GitHub username of the person the bio is about. This is used to generate links to the person's
      * OpenSource projects
      *
@@ -49,6 +47,9 @@ HTML;
         return 'WayneBrummer';
     }
 
+    /**
+     * @return string
+     */
     public function getTwitterUsername()
     {
         return '@WayneBrummer';
