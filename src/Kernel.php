@@ -20,6 +20,7 @@ use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
 use mostertb\PHPSA2018Profiles\Profiles\SarelvdWaltProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
+use mostertb\PHPSA2018Profiles\Profiles\WayneBrummerProfile;
 use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
 use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
 use mostertb\PHPSA2018Profiles\Profiles\NoelYoungProfile;
@@ -58,6 +59,7 @@ class Kernel
             new SarelvdWaltProfile(),
             new BernhardBreytenbachProfile(),
             new FrancoSchwimProfile(),
+            new WayneBrummerProfile(),
             new LiamNormanProfile(),
             new OutieDorflingProfile(),
             new NoelYoungProfile(),
