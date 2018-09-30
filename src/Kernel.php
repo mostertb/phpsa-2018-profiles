@@ -28,6 +28,7 @@ use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
 use mostertb\PHPSA2018Profiles\Profiles\NoelYoungProfile;
 use mostertb\PHPSA2018Profiles\Profiles\FrancoSchwimProfile;
 use mostertb\PHPSA2018Profiles\Profiles\LiamNormanProfile;
+use mostertb\PHPSA2018Profiles\Profiles\JamesTitcumbProfile;
 
 class Kernel
 {
@@ -42,6 +43,7 @@ class Kernel
     public function __construct()
     {
         $this->profiles = array(
+            new JamesTitcumbProfile(),
             new MichaelGoodenProfile(),
             new BradMostertProfile(),
             new MichaelDanckwertsProfile(),
