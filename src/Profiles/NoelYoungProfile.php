@@ -2,10 +2,10 @@
 
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-
 class NoelYoungProfile extends AbstractProfile
 {
-	/**
+
+    /**
      * Provides the full name of the person that the bio is about
      *
      * @return string
