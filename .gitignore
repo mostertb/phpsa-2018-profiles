@@ -49,3 +49,6 @@ composer.phar
 
 # Environment
 .htaccess
+
+#PHP CS Fixer
+.php_cs.cache

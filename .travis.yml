@@ -6,6 +6,7 @@ sudo: false
 matrix:
   include:
       - php: 7.1
+      - php: 7.2
 
 # Cache composer files for faster test times
 cache:
@@ -26,5 +27,4 @@ install:
   - composer install --no-interaction --prefer-dist
 
 script:
-  - phpunit
-  - vendor/bin/phpstan analyse --level max src/ tests/
+  - composer test

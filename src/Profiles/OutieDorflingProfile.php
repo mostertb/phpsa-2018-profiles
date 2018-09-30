@@ -2,17 +2,17 @@
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
 /**
- * Class RossvanWykProfile
+ * Class OutieDorflingProfile
  * @package mostertb\PHPSA2018Profiles\Profiles
  */
-class RossvanWykProfile extends AbstractProfile
+class OutieDorflingProfile extends AbstractProfile
 {
     /**
      * @return string
      */
     public function getName()
     {
-        return 'Ross van Wyk';
+        return 'Outie Dorfling';
     }
 
     /**
@@ -20,7 +20,7 @@ class RossvanWykProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'Ross also just wants a sticker... :P';
+        return 'https://cheekibreeki.ru';
     }
 
     /**
@@ -28,16 +28,7 @@ class RossvanWykProfile extends AbstractProfile
      */
     public function getGitHubUsername()
     {
-        return 'Owkkuri';
-    }
-
-
-    /**
-     * @return string
-     */
-    public function getTwitterUsername()
-    {
-        return '@owkkuri';
+        return 'Dorfling';
     }
 
     /**
@@ -45,6 +36,6 @@ class RossvanWykProfile extends AbstractProfile
      */
     public function getProfileImageURL()
     {
-        return 'https://avatars1.githubusercontent.com/u/234763';
+        return 'https://avatars1.githubusercontent.com/u/7113608';
     }
 }

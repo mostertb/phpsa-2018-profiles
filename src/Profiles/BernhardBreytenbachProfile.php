@@ -2,7 +2,7 @@
 
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-class TonyMackProfile extends AbstractProfile
+class BernhardBreytenbachProfile extends AbstractProfile
 {
 
     /**
@@ -12,7 +12,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getName()
     {
-        return 'Tony Mack';
+        return 'Bernhard Breytenbach';
     }
 
     /**
@@ -22,8 +22,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'Tony is an app dev<br>'.
-               'He makes apps.<br>';
+        return 'Bad spellers of the world untie! I complain about floats...';
     }
 
     /**
@@ -33,7 +32,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getProfileImageURL()
     {
-        return 'https://pbs.twimg.com/profile_images/643733549145817089/95m5cFta_400x400.jpg';
+        return 'https://secure.gravatar.com/avatar/ababbb20a39002f75cd9ac1b7a8ec2d4?s=250';
     }
 
     /**
@@ -44,7 +43,7 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getGitHubUsername()
     {
-        return 'tonmanayo';
+        return 'xethron';
     }
 
     /**
@@ -57,7 +56,8 @@ class TonyMackProfile extends AbstractProfile
     public function getMaintainedProjects()
     {
         return array(
-            '',
+            'Laravel Migrations Generator' => 'https://github.com/Xethron/migrations-generator',
+            'PHP Docker Dev Environment' => 'https://github.com/Xethron/php-docker'
         );
     }
 
@@ -70,13 +70,11 @@ class TonyMackProfile extends AbstractProfile
      */
     public function getInvolvedProjects()
     {
-        return array(
-            '',
-        );
+        return array();
     }
 
     public function getTwitterUsername()
     {
-        return '@tonmanayo';
+        return '@bbreyten';
     }
 }
