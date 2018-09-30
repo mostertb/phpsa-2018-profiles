@@ -1,6 +1,6 @@
 {
   "name": "mostertb/phpsa-2018-profiles",
-  "description": "Humorous educational project build by the PHP South Africa 2017 conference attendees",
+  "description": "Humorous educational project build by the PHP South Africa 2018 conference attendees",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -18,7 +18,8 @@
   },
   "require": {
     "php": ">7.1",
-    "twig/twig": "^2.5"
+    "twig/twig": "^2.5",
+    "ornicar/gravatar-bundle": "^1.3"
   },
   "require-dev": {
     "php": ">7.1",

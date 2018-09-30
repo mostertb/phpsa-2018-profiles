@@ -7,6 +7,7 @@ use mostertb\PHPSA2018Profiles\Profiles\AlbertSchermanProfile;
 use mostertb\PHPSA2018Profiles\Profiles\AndreSmithProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BernhardBreytenbachProfile;
 use mostertb\PHPSA2018Profiles\Profiles\BradMostertProfile;
+use mostertb\PHPSA2018Profiles\Profiles\DowayneBreedtProfile;
 use mostertb\PHPSA2018Profiles\Profiles\DylanHarbourProfile;
 use mostertb\PHPSA2018Profiles\Profiles\GerhardNiemandProfile;
 use mostertb\PHPSA2018Profiles\Profiles\LeRouxEnslinProfile;
@@ -21,8 +22,10 @@ use mostertb\PHPSA2018Profiles\Profiles\RossvanWykProfile;
 use mostertb\PHPSA2018Profiles\Profiles\SarelvdWaltProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TshiamoBhudaProfile;
 use mostertb\PHPSA2018Profiles\Profiles\TonyMackProfile;
+use mostertb\PHPSA2018Profiles\Profiles\WayneBrummerProfile;
 use mostertb\PHPSA2018Profiles\Profiles\WilliamStamProfile;
 use mostertb\PHPSA2018Profiles\Profiles\PuffyProfile;
+use mostertb\PHPSA2018Profiles\Profiles\NoelYoungProfile;
 use mostertb\PHPSA2018Profiles\Profiles\FrancoSchwimProfile;
 use mostertb\PHPSA2018Profiles\Profiles\LiamNormanProfile;
 
@@ -58,9 +61,12 @@ class Kernel
             new SarelvdWaltProfile(),
             new BernhardBreytenbachProfile(),
             new FrancoSchwimProfile(),
+            new DowayneBreedtProfile(),
+            new WayneBrummerProfile(),
             new LiamNormanProfile(),
             new OutieDorflingProfile(),
             new PacoIlondoProfile(),
+            new NoelYoungProfile(),
         );
     }
 
