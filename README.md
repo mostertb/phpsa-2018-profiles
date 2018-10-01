@@ -47,6 +47,8 @@ Add your new Bio class to the construction of `mostertb\PHPSA2018Profiles\Kernel
     }
 ```
 
+Added Gravatar Package. You can now specify your Gravatar by instantiating the GravatarApi Class, and using the getUrl method with your email address associated with Gravatar.
+
 ### Step Four Point Five
 Test your newly modified code with `composer test`. Resolve any issues the command raises.
 

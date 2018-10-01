@@ -1,8 +1,7 @@
 <?php
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
-use GPH\Api\DefaultApi;
-use Ornicar\GravatarBundle\GravatarApi;
+ use Ornicar\GravatarBundle\GravatarApi;
 
 class DowayneBreedtProfile extends AbstractProfile
 {
