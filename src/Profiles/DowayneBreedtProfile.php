@@ -1,7 +1,8 @@
 <?php
+
 namespace mostertb\PHPSA2018Profiles\Profiles;
 
- use Ornicar\GravatarBundle\GravatarApi;
+use Ornicar\GravatarBundle\GravatarApi;
 
 class DowayneBreedtProfile extends AbstractProfile
 {
@@ -44,6 +45,7 @@ class DowayneBreedtProfile extends AbstractProfile
     public function getProfileImageURL()
     {
         $gvApi = new GravatarApi();
+
         return $gvApi->getUrl('dowaynebreedt@gmail.com');
     }
 
